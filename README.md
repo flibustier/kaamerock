@@ -1,6 +1,8 @@
 # Kaamelott Voice Pack for your Roborock vacuum cleaner
 
-![](https://media.giphy.com/media/17Z9AMUpJsV5m/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/17Z9AMUpJsV5m/giphy.gif">
+</p>
 
 You own a Xiaomi Mijia Vacuum or Roborock Vacuum and you’re tired of the boring "Starting to clean" ? Let’s add some french Kaamelott instead !
 
@@ -16,17 +18,20 @@ The packaging script is made possible by [Dust cloud](https://github.com/dgiese/
 
 ## Install 🚀
 
-![](https://media.giphy.com/media/iIqdo2k1kVaXpSWm93/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/iIqdo2k1kVaXpSWm93/giphy.gif">
+</p>
 
 ### Requirements
 
 You will need :
+
 - Your Xiaomi device token, there are a lot of methods, personnaly I used [this electron app](https://github.com/Maxmudjon/com.xiaomi-miio/blob/master/docs/obtain_token.md)
 - The device IP address (like `192.168.1.25`)
-- [Python-miio](https://github.com/rytilahti/python-miio) library installed 
+- [Python-miio](https://github.com/rytilahti/python-miio) library installed
 
 The installation of `python-miio` could be found [here](https://python-miio.readthedocs.io/en/latest/discovery.html#installation).
-i.e. `brew install libffi openssl` or `apt install libffi-dev libssl-dev`; 
+i.e. `brew install libffi openssl` or `apt install libffi-dev libssl-dev`;
 Then `pip3 install python-miio`
 
 When `python-miio` is installed, you can simply run :
@@ -39,12 +44,14 @@ The Kaamelott voice pack comes from the [latest release](https://github.com/flib
 
 ## Build/Customize it yourself
 
-![](https://media.giphy.com/media/qQdfSrX85gQcU/giphy-downsized.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/qQdfSrX85gQcU/giphy-downsized.gif">
+</p>
 
 ### Requirements
 
 - `ccrypt` must be installed
-e.g. `sudo apt install ccrypt` or `brew install ccrypt`
+  e.g. `sudo apt install ccrypt` or `brew install ccrypt`
 - `tar` must also be installed
 - `ffmpeg` must be installed in order to transcode `mp3` file into `wav` 16 bits Mono track 16kHz
 
@@ -76,7 +83,7 @@ Second column is the name of the `wav` file used by the vacuum for this specific
 
 Third column is an english sentence corresponding to an [english audio pack](https://github.com/fredless/RoborockVoicePacks/blob/master/Phil/audio_en.csv), it’s just in order to know exactly what was the meaning of the original audio file. You have no interest in modifying this column unless you know what your doing!
 
-🧙‍♂️ When you’re ready you can execute the 
+🧙‍♂️ When you’re ready you can execute the
 `./moulinette.sh`
 
 It will read the `audio_mapping.csv` file, take `.mp3` audio file from `kaamelott soundboard` and transcode it into a `mono 16 bits WAV 16kHz` with the corresponding file name.
@@ -92,4 +99,6 @@ Now your dist folder is ready to be pack 📦
 
 🎉 Now you’re ready to install it 👏
 
-![](https://media.giphy.com/media/149eCxEQPfhwyY/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/149eCxEQPfhwyY/giphy.gif">
+</p>

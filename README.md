@@ -31,11 +31,11 @@ Then `pip3 install python-miio`
 
 When `python-miio` is installed, you can simply run :
 
-`mirobo --ip=192.168.1.25 --token=42**************************1337 install-sound ./fr_patched.pkg`
+`mirobo --ip=192.168.1.25 --token=42**************************1337 install-sound https://github.com/flibustier/kaamerock/releases/download/v1.0.0/fr_kaamelott.pkg 764034b1b52cb60769615acdc0c91755`
 
 > Don’t forget to replace the IP address and token with your own
 
-The Kaamelott voice pack comes from the [latest release](https://github.com/flibustier/kaamerock)
+The Kaamelott voice pack comes from the [latest release](https://github.com/flibustier/kaamerock/releases/)
 
 ## Build/Customize it yourself
 

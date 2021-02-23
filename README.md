@@ -75,6 +75,9 @@ Now you should have a `dist` folder with a lot of `.wav` audio files
 
 ### Build or Customize
 
+> Don’t forget to update the git submodule (the kaamelott soundboard, for sound files) :
+`git submodule update --init --recursive`
+
 You can modify the `audio_mapping.csv` file to adjust the sentence you want to hear.
 
 First column is the `kaamelott soundboard` audio file name. It allows you to change a sentence for an other one. To get the filename, I recommend you to go to the [live soundboard](https://kaamelott-soundboard.2ec0b4.fr/), choose an audio and copy the name after the `/#son/` in the URL.
